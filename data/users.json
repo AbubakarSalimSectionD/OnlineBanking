@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "username": "abuu",
+      "PIN": "0000",
+      "balance": 0
+    },
+    {
+      "username": "salim",
+      "PIN": "2222",
+      "balance": 600
+    }
+  ],
+  "pendingTransfers": [
+    {
+      "amount": 100,
+      "securityQuestion": "What is your pet's name?",
+      "securityAnswer": "Fluffy"
+    },
+    {
+      "sender": {
+        "username": "salim",
+        "PIN": "2222",
+        "balance": 600
+      },
+      "recipient": {
+        "username": "abuu",
+        "PIN": "0000",
+        "balance": 0
+      },
+      "amount": 500,
+      "securityQuestion": "colour of sky?",
+      "securityAnswer": "blue"
+    },
+    {
+      "sender": {
+        "username": "abuu",
+        "PIN": "0000",
+        "balance": 0
+      },
+      "recipient": {
+        "username": "salim",
+        "PIN": "2222",
+        "balance": 600
+      },
+      "amount": 300,
+      "securityQuestion": "color of sky?",
+      "securityAnswer": "blue"
+    }
+  ]
+}
